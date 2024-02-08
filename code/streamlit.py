@@ -9,9 +9,8 @@ model = load_model("../data/model.h5")
 # Function to preprocess the input image
 def preprocess_image(image):
     img = image.convert("L").resize((28, 28))
-    img_array = np.array(img)
-    img_array = img_array / 255.0
-    img_array = img_array.reshape(1, 28, 28, 1)
+    img_array = np.array(img) / 255.0
+    img_array = img_array.reshape(-1, 28, 28, 1)
     return img_array
 
 
