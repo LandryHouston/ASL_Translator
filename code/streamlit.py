@@ -22,7 +22,5 @@ if file is not None:
 
     class_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y']
     predicted_class = class_labels[np.argmax(prediction)]
-    confidence_percentage = np.max(prediction) * 100
     
     st.markdown(f"<h3 align='center'>Prediction: {predicted_class}</h3>", unsafe_allow_html=True)
-    st.markdown(f"<h3 align='center'>Confidence: {confidence_percentage:.2f}%</h3>", unsafe_allow_html=True)
