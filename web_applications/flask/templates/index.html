@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ASL Translator</title>
     <link rel="stylesheet" href="../static/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>ASL Translator</h1>
+    <h2>ASL Translator</h2>
+    <p id="text">Show a sign for translation</p>
     <img src="{{ url_for('video_feed') }}" />
-    <p></p>
+    <p id="text">
+      <span class="up_arrow">&#x279C;</span>
+      Live ASL translation in progress
+      <span class="up_arrow">&#x279C;</span>
+    </p>
+    <footer>
+      <p>
+        Created by
+        <a href="https://www.landryhouston.com" target="_blank"
+          >Landry Houston <i class="fab fa-python"></i
+        ></a>
+      </p>
+    </footer>
   </body>
 </html>

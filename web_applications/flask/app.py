@@ -1,3 +1,6 @@
+# cite: https://stackoverflow.com/questions/54786145/web-cam-in-a-webpage-using-flask-and-python
+
+
 from flask import Flask, render_template, Response
 import cv2
 import pickle
@@ -63,8 +66,7 @@ def generate_frames():
                     prediction = model.predict([np.asarray(data_aux)])
                     predicted_character = prediction[0]
                     # cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 4)  # Frame around hand
-                    cv2.putText(frame, predicted_character, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 3,
-                                cv2.LINE_AA)
+                    cv2.putText(frame, predicted_character, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 3, cv2.LINE_AA)
 
             ret, buffer = cv2.imencode('.jpg', frame)
             frame = buffer.tobytes()

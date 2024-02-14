@@ -1,19 +1,110 @@
+@media (max-width: 110em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 95em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 70em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 65em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 60em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 55em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 50em) {
+  html {
+    font-size: 35%;
+  }
+}
+
 body {
+  background-image: url("https://media.istockphoto.com/id/1367756031/vector/light-blue-watercolor-background-illustration.jpg?s=612x612&w=0&k=20&c=qiJl7j-2terwHd-1YJxiFIo1VJx6l6IsmoqlgeypQ7c=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: skyblue;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
 }
 
-h1 {
-  font-size: 5em;
+h2 {
+  font-size: 7em;
+  color: skyblue;
+  text-shadow: 4px 2px 6px black;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.26em;
 }
 
 img {
   max-width: 100%;
-  width: 80%;
+  width: 50%;
   height: auto;
   display: block;
   margin: auto;
+  box-shadow: 0px 5px 50px 5px black;
+  border-radius: 40px;
+  margin-bottom: -3em;
+}
+
+#text {
+  font-size: 2.5em;
+  font-family: "Comic Sans MS";
+}
+
+.up_arrow {
+  display: inline-block;
+  color: skyblue;
+  text-shadow: 0px 2px 6px black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 5rem;
+  transform: rotate(270deg);
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  border-top: 3px solid white;
+  margin-top: auto;
+  font-family: "Poppins", sans-serif;
+  bottom: 0;
+}
+
+footer > p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
