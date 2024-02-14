@@ -35,9 +35,13 @@ It should be noted that no data cleaning or image augmentation was deemed necess
 I created a Keras Sequential model incorporating Convolutional Neural Networks. Before constructing the model, I divided the dataset into training, validation, and test sets. The training phase was time-consuming due to the dataset's size. Despite the duration, the model exhibited remarkable performance with a Test Accuracy of 0.9919 and a Train Accuracy of 0.9996. These results signify the model's exceptional capability in accurately predicting image classes.
 </p>
 
+<div align='center'>
+
 |         Accuracy          |         Loss          |
 | :-----------------------: | :-------------------: |
 | ![](/images/accuracy.png) | ![](/images/loss.png) |
+
+<div>
 
 ---
 
@@ -72,6 +76,7 @@ A new classification model needed to be created for precise and quick prediction
 <h2 align='center'>Web Applications</h2>
 
 <p>
+
 To make the ASL Translator accessible and user-friendly, I've developed a web application using Streamlit and Flask.
 
 You can check out the code in the [Web App folder](/web_applications/).
