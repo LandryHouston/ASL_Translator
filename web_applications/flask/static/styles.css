@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+img {
+  max-width: 100%;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
