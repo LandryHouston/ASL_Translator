@@ -77,8 +77,18 @@ A new classification model needed to be created for precise and quick prediction
 
 <p>
 
-To make the ASL Translator accessible and user-friendly, I've developed a web application using Streamlit and Flask.
+I've developed two ASL Translator web applications for a user-friendly experience. The Streamlit app allows users to upload ASL sign images, providing automatic class predictions. On the other hand, the Flask app enables real-time translations using the webcam. It recognizes hand gestures, assigns landmarks, and displays predictions near the hand, ensuring easy readability.
+
+I created videos showcasing both of the web applications, check them out [here](/images/).
 
 You can check out the code in the [Web App folder](/web_applications/).
 
+</p>
+
+---
+
+<h2 align='center'>Conclusions</h2>
+
+<p>
+In summary, I successfully created an advanced predictive model to enhance communication for deaf and hearing individuals, utilizing a Sequential model and a Random Forest Classifier. The Sequential model exhibited outstanding performance with a Test Accuracy of 99.19% and a Train Accuracy of 99.96%, showcasing its exceptional ability to accurately predict image classes. The Random Forest Classifier also delivered excellent results, classifying 99.9% of samples correctly. Together, these models provide highly accurate outcomes for image classification and real-time sign translation, surpassing our expectations and affirming their effectiveness in facilitating improved communication. Future improvements can be made by collecting more diverse data and expanding the range of classes. This can contribute to further improving the model's robustness and performance across a broader spectrum of scenarios.
 </p>
