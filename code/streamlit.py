@@ -5,6 +5,7 @@ import numpy as np
 from keras.preprocessing import image
 
 st.markdown("<h1 align='center'>ASL Alphabet Interpreter</h1>", unsafe_allow_html=True)
+st.markdown("<h5 align='center'>This model interprets American Sign Language (ASL) alphabet images.</h5>", unsafe_allow_html=True)
 
 file = st.file_uploader("Upload your image:", type=["jpeg", "jpg", "png"])
 
@@ -12,7 +13,7 @@ if file is not None:
     images = Image.open(file).convert("RGB")
     st.image(images, use_column_width=True)
 
-    model = load_model("../data/model.h5")
+    model = load_model("../data/model.keras")
 
     img = images.resize((256, 256))
     img_array = image.img_to_array(img)
