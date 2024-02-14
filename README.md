@@ -44,13 +44,18 @@ I created a Keras Sequential model incorporating Convolutional Neural Networks. 
 <h2 align='center'>Hand Landmarks</h2>
 
 <p>
+
 I wanted to create a real-time translation system that utilizes someones webcam. I was able to achieve this using MediaPipe and OpenCV. First I decided to create my own dataset by collecting my own images. I created a function to help streamline this process that takes in a list of class names and captures a total of 1000 images for each class, 500 for each hand. I made the image collection process easy by displaying on-screen text with instructions. I knew that data augmentation was not needed if pictures are taken at different positions and distances so I rotated and moved my hand throughout the capture process.
+
+</p>
 
 <div align='center'>
 
-![](/images/landmark_image.png)
+![Alt Text](/images/data_collection_gif.gif)
 
 </div>
+
+<p>
 
 After the images were collected they were processing using MediaPipe and hand landmarks were added to the images. The landmark coordinates were saved as a pickle file.
 
@@ -58,12 +63,11 @@ A new classification model needed to be created for precise and quick prediction
 
 </p>
 
-<video align='center' width="320" height="240" controls>
-  <source src="/images/data_collection.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div align='center'>
 
----
+![](/images/landmark_image.png)
+
+## </div>
 
 <h2 align='center'>Web Applications</h2>
 
