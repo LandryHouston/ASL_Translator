@@ -74,6 +74,6 @@ A new classification model needed to be created for precise and quick prediction
 <p>
 To make the ASL Translator accessible and user-friendly, I've developed a web application using Streamlit and Flask.
 
-You can check out the live app [here](#) or explore the code in the [Web App folder](/web_applications/).
+You can check out the code in the ![Web App folder](/web_applications/).
 
 </p>
