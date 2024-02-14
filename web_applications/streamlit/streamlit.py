@@ -13,7 +13,7 @@ if file is not None:
     images = Image.open(file).convert("RGB")
     st.image(images, use_column_width=True)
 
-    model = load_model("../data/model.keras")
+    model = load_model("../../data/model.keras")
 
     img = images.resize((256, 256))
     img_array = image.img_to_array(img)
