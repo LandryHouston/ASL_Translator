@@ -23,7 +23,7 @@ With ASL consisting of thousands of diverse static and dynamic signs, I decided 
 
 It should be noted that no data cleaning or image augmentation was deemed necessary before model development. The dataset includes a wide array of signs, featuring different positions, orientations, lighting conditions, and distances. Attempting further augmentation was found to have a negative impact on model accuracy.
 
-The dataset can be accessed [here]('https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset').
+The dataset can be accessed [here](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset).
 
 </p>
 
