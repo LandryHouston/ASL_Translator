@@ -65,6 +65,18 @@ def generate_frames():
                     # cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 4)  # Frame around hand
                     cv2.putText(frame, predicted_character, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 3, cv2.LINE_AA)
 
+                '''
+                # Future plans to only make a prediction if confident. However more data is needed to have confident predictions.
+                
+                if len(data_aux) != 84:
+                    prediction = model.predict([np.asarray(data_aux)])
+                    confidence = np.max(model.predict_proba([np.asarray(data_aux)]))
+                    
+                    if confidence >= 0.75:
+                        predicted_character = prediction[0]
+                        cv2.putText(frame, predicted_character, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 3, cv2.LINE_AA)
+                '''
+
             ret, buffer = cv2.imencode('.jpg', frame)
             frame = buffer.tobytes()
             yield (b'--frame\r\n'
