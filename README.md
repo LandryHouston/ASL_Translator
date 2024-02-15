@@ -1,7 +1,5 @@
 <h1 align='center'>American Sign Language (ASL) Translator</h1>
 
-<h3 align='center'>Capstone Project for General Assembly DSI-1113</h3>
-
 <div align='center'>
 
 ![](/media/images/amer_sign2.png)
