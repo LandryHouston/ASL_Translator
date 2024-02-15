@@ -100,6 +100,6 @@ https://stackoverflow.com/questions/54786145/web-cam-in-a-webpage-using-flask-an
 https://youtu.be/MJCSjXepaAM?si=KkBwTAqwPveyiTBy
 
 <p align='left'>
-"Sign Language Detection with Python and Scikit Learn." <a href='youtu.be/MJCSjXepaAM?si=pFa-ICPNGo2CHJAi.'>www.youtube.com</a>, uploaded by Computer Vision Engineer, 26 Jan. 2023.
+"Sign Language Detection with Python and Scikit Learn." <a href='https://youtu.be/MJCSjXepaAM?si=KkBwTAqwPveyiTBy'>www.youtube.com</a>, uploaded by Computer Vision Engineer, 26 Jan. 2023.
 
 </p>
