@@ -13,7 +13,7 @@
 <h2 align='center'>Overview</h2>
 
 <p>
-Welcome to my Capstone project repository. The focus of this project is to provide a simple way for deaf people to be able to communicate with hearing people. This project can also serve as an educational tool to help with learning basic ASL signs. I'm implementing an Image Classification model using Convolutional Neural Networks (CNNs) and integrating real-time hand detection with OpenCV and MediaPipe. This approach aims to break down communication barriers and contribute to bridging the gap between the deaf and hearing communities. The model aims to optimize for maximum accuracy with the goal of achieving an accuracy of over 95%. Additionally, I'll be creating a Streamlit and Flask app to ensure a user-friendly experience for everyone."
+Welcome to my Capstone project repository. The focus of this project is to provide a simple way for deaf people to be able to communicate with hearing people. This project can also serve as an educational tool to help with learning basic ASL signs. I'm implementing an Image Classification model using Convolutional Neural Networks (CNNs) and integrating real-time hand detection with OpenCV and MediaPipe. This approach aims to break down communication barriers and contribute to bridging the gap between the deaf and hearing communities. The model aims to optimize for maximum accuracy to achieve an accuracy of over 95%. Additionally, I'll be creating a Streamlit and Flask app to ensure a user-friendly experience for everyone."
 </p>
 
 ---
@@ -48,7 +48,7 @@ I created a Keras Sequential model incorporating Convolutional Neural Networks. 
 <h2 align='center'>Hand Landmarks</h2>
 
 <p>
-I wanted to create a real-time translation system that utilizes someones webcam. I was able to achieve this using MediaPipe and OpenCV. First I decided to create my own dataset by collecting my own images. I created a function to help streamline this process that takes in a list of class names and captures a total of 1000 images for each class, 500 for each hand. I made the image collection process easy by displaying on-screen text with instructions. I knew that data augmentation was not needed if pictures are taken at different positions and distances so I rotated and moved my hand throughout the capture process.
+I wanted to create a real-time translation system that utilizes someone's webcam. I was able to achieve this using MediaPipe and OpenCV. First I decided to create my dataset by collecting my own images. I created a function to help streamline this process that takes in a list of class names and captures a total of 1000 images for each class, 500 for each hand. I made the image collection process easy by displaying on-screen text with instructions. I knew that data augmentation was not needed if pictures are taken at different positions and distances so I rotated and moved my hand throughout the capture process.
 
 </p>
 
