@@ -37,9 +37,9 @@ I created a Keras Sequential model incorporating Convolutional Neural Networks. 
 
 <div align='center'>
 
-|         Accuracy          |         Loss          |
-| :-----------------------: | :-------------------: |
-| ![](/images/accuracy.png) | ![](/images/loss.png) |
+|            Accuracy             |            Loss             |
+| :-----------------------------: | :-------------------------: |
+| ![](/media/images/accuracy.png) | ![](/media/images/loss.png) |
 
 <div>
 
@@ -55,7 +55,7 @@ I wanted to create a real-time translation system that utilizes someones webcam.
 
 <div align='center'>
 
-![Alt Text](/images/data_collection_gif.gif)
+![Alt Text](/media/videos/data_collection.gif)
 
 </div>
 
@@ -69,7 +69,7 @@ A new classification model needed to be created for precise and quick prediction
 
 <div align='center'>
 
-![](/images/landmark_image.png)
+![](/media/images/landmark_image.png)
 
 ## </div>
 
@@ -79,7 +79,7 @@ A new classification model needed to be created for precise and quick prediction
 
 I've developed two ASL Translator web applications for a user-friendly experience. The Streamlit app allows users to upload ASL sign images, providing automatic class predictions. On the other hand, the Flask app enables real-time translations using the webcam. It recognizes hand gestures, assigns landmarks, and displays predictions near the hand, ensuring easy readability.
 
-I created videos showcasing both of the web applications, check them out [here](/images/).
+I created videos showcasing both of the web applications, check them out [here](/media/videos/).
 
 You can check out the code in the [Web App folder](/web_applications/).
 
