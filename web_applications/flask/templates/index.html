@@ -15,7 +15,10 @@
   <body>
     <h2>ASL Translator</h2>
     <p id="text">Show a sign for translation</p>
-    <img src="{{ url_for('video_feed') }}" />
+    <div class="image-container">
+      <img src="{{ url_for('video_feed') }}" />
+    </div>
+
     <p id="text">
       <span class="up_arrow">&#x279C;</span>
       Live ASL translation in progress
