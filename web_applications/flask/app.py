@@ -1,6 +1,3 @@
-# cite: https://stackoverflow.com/questions/54786145/web-cam-in-a-webpage-using-flask-and-python
-
-
 from flask import Flask, render_template, Response
 import cv2
 import pickle
