@@ -100,7 +100,7 @@ In summary, I successfully created an advanced predictive model to enhance commu
 
 ---
 
-## Citations
+<h2 align='center'>Citations</h2>
 
 <p align='left'>
 "Web Cam in a Webpage Using Flask and Python." <a href='stackoverflow.com/questions/54786145/web-cam-in-a-webpage-using-flask-and-python'>www.stackoverflow.com</a>, 20 Feb. 2019.<br><br>
