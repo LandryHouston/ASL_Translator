@@ -93,13 +93,11 @@ You can check out the code in the [Web App folder](/web_applications/).
 In summary, I successfully created an advanced predictive model to enhance communication for deaf and hearing individuals, utilizing a Sequential model and a Random Forest Classifier. The Sequential model exhibited outstanding performance with a Test Accuracy of 99.19% and a Train Accuracy of 99.96%, showcasing its exceptional ability to accurately predict image classes. The Random Forest Classifier also delivered excellent results, classifying 99.9% of samples correctly. Together, these models provide highly accurate outcomes for image classification and real-time sign translation, surpassing our expectations and affirming their effectiveness in facilitating improved communication. Future improvements can be made by collecting more diverse data and expanding the range of classes. This can contribute to further improving the model's robustness and performance across a broader spectrum of scenarios.
 </p>
 
-### Citations
+---
 
-https://stackoverflow.com/questions/54786145/web-cam-in-a-webpage-using-flask-and-python
-
-https://youtu.be/MJCSjXepaAM?si=KkBwTAqwPveyiTBy
+## Citations
 
 <p align='left'>
+"Web Cam in a Webpage Using Flask and Python." <a href='stackoverflow.com/questions/54786145/web-cam-in-a-webpage-using-flask-and-python'>www.stackoverflow.com</a>, 20 Feb. 2019.<br><br>
 "Sign Language Detection with Python and Scikit Learn." <a href='https://youtu.be/MJCSjXepaAM?si=KkBwTAqwPveyiTBy'>www.youtube.com</a>, uploaded by Computer Vision Engineer, 26 Jan. 2023.
-
 </p>
