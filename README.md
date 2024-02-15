@@ -4,7 +4,7 @@
 
 <div align='center'>
 
-![](/images/amer_sign2.png)
+![](/media/images/amer_sign2.png)
 
 </div>
 
@@ -61,7 +61,7 @@ I wanted to create a real-time translation system that utilizes someones webcam.
 
 <p>
 
-After the images were collected they were processing using MediaPipe and hand landmarks were added to the images. The landmark coordinates were saved as a pickle file.
+After the images were collected they were processed using MediaPipe and hand landmarks were added to the images. The landmark coordinates were saved as a pickle file.
 
 A new classification model needed to be created for precise and quick predictions. I decided to go with my favorite, Random Forest Classifier. The model trains quickly and we get an impressive accuracy score resulting in 99.9% of samples being classified correctly. The model is also saved as a pickle for easy accessibility.
 
