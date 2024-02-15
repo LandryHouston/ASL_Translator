@@ -41,14 +41,13 @@ I created a Keras Sequential model incorporating Convolutional Neural Networks. 
 | :-----------------------------: | :-------------------------: |
 | ![](/media/images/accuracy.png) | ![](/media/images/loss.png) |
 
-<div>
+</div>
 
 ---
 
 <h2 align='center'>Hand Landmarks</h2>
 
 <p>
-
 I wanted to create a real-time translation system that utilizes someones webcam. I was able to achieve this using MediaPipe and OpenCV. First I decided to create my own dataset by collecting my own images. I created a function to help streamline this process that takes in a list of class names and captures a total of 1000 images for each class, 500 for each hand. I made the image collection process easy by displaying on-screen text with instructions. I knew that data augmentation was not needed if pictures are taken at different positions and distances so I rotated and moved my hand throughout the capture process.
 
 </p>
