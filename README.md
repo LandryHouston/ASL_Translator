@@ -54,7 +54,7 @@ I wanted to create a real-time translation system that utilizes someones webcam.
 
 <div align='center'>
 
-![Alt Text](/media/videos/data_collection.gif)
+![](/media/videos/data_collection.gif)
 
 </div>
 
@@ -83,6 +83,12 @@ I created videos showcasing both of the web applications, check them out [here](
 You can check out the code in the [Web App folder](/web_applications/).
 
 </p>
+
+<div align='center'>
+
+![](/media/videos/flask_showcase.gif)
+
+</div>
 
 ---
 
