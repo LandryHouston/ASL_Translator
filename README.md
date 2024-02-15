@@ -76,7 +76,7 @@ A new classification model needed to be created for precise and quick prediction
 
 <p>
 
-I've developed two ASL Translator web applications for a user-friendly experience. The Streamlit app allows users to upload ASL sign images, providing automatic class predictions. On the other hand, the Flask app enables real-time translations using the webcam. It recognizes hand gestures, assigns landmarks, and displays predictions near the hand, ensuring easy readability.
+I've developed two ASL Translator web applications for a user-friendly experience. The Streamlit app allows users to upload ASL sign images, providing automatic class predictions. On the other hand, the Flask app enables real-time translations using the webcam. It recognizes hand gestures, assigns landmarks, and displays predictions near the hand, ensuring easy readability. For a prediction to be visible, the model requires a confidence level of at least 50%. If it's less confident, no prediction will be displayed.
 
 I created videos showcasing both of the web applications, check them out [here](/media/videos/).
 
