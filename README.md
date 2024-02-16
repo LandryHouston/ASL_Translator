@@ -21,7 +21,7 @@ Welcome to my Capstone project repository. The focus of this project is to provi
 <p>
 With ASL consisting of thousands of diverse static and dynamic signs, I decided to begin with a focused approach, starting small by considering the Alphabet. Our dataset consists of 174,474 images distributed across 24 classes. These classes represent all the letters of the alphabet, excluding J and Z due to being dynamic signs. The distribution of instances among the various classes is fairly even.
 
-It should be noted that no data cleaning or image augmentation was deemed necessary before model development. The dataset includes a wide array of signs, featuring different positions, orientations, lighting conditions, and distances. Attempting further augmentation was found to have a negative impact on model accuracy.
+It should be noted that no data cleaning or image augmentation was deemed necessary before model development. The dataset includes a wide array of signs that feature different positions, orientations, lighting conditions, and distances. Attempting further augmentation was found to have a negative impact on model accuracy.
 
 The dataset can be accessed [here](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset).
 
