@@ -103,6 +103,6 @@ In summary, I successfully created an advanced predictive model to enhance commu
 <h2 align='center'>Citations</h2>
 
 <p align='left'>
-"Web Cam in a Webpage Using Flask and Python." <a href='stackoverflow.com/questions/54786145/web-cam-in-a-webpage-using-flask-and-python'>www.stackoverflow.com</a>, 20 Feb. 2019.<br><br>
+"Web Cam in a Webpage Using Flask and Python." <a href='https://stackoverflow.com/questions/54786145/web-cam-in-a-webpage-using-flask-and-python'>www.stackoverflow.com</a>, 20 Feb. 2019.<br><br>
 "Sign Language Detection with Python and Scikit Learn." <a href='https://youtu.be/MJCSjXepaAM?si=KkBwTAqwPveyiTBy'>www.youtube.com</a>, uploaded by Computer Vision Engineer, 26 Jan. 2023.
 </p>
