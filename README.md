@@ -11,7 +11,7 @@
 <h2 align='center'>Overview</h2>
 
 <p>
-Welcome to my Capstone project repository. The focus of this project is to provide a simple way for deaf people to be able to communicate with hearing people. This project can also serve as an educational tool to help with learning basic ASL signs. I'm implementing an Image Classification model using Convolutional Neural Networks (CNNs) and integrating real-time hand detection with OpenCV and MediaPipe. This approach aims to break down communication barriers and contribute to bridging the gap between the deaf and hearing communities. The model aims to optimize for maximum accuracy to achieve an accuracy of over 95%. Additionally, I'll be creating a Streamlit and Flask app to ensure a user-friendly experience for everyone."
+Welcome to my Capstone project repository. The focus of this project is to provide a simple way for deaf people to be able to communicate with hearing people. This project can also serve as an educational tool to help with learning basic ASL signs. I'm implementing an Image Classification model using Convolutional Neural Networks (CNNs) and integrating real-time hand detection with OpenCV and MediaPipe. This approach aims to break down communication barriers and contribute to bridging the gap between the deaf and hearing communities. The model aims to optimize for maximum accuracy to achieve an accuracy of over 95%. Additionally, I'll be creating a Streamlit and Flask app to ensure a user-friendly experience for everyone.
 </p>
 
 ---
