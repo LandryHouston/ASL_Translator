@@ -108,4 +108,5 @@ In summary, I successfully created two advanced predictive models to enhance com
 </p>
 
 
+Notes: 
 Principle Component Analysis might help with the image pattern recognition.
